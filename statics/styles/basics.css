@@ -1,3 +1,8 @@
+/* Root */
+:root{
+    --clr-Deep-Plum:#5C2A4A;
+}
+
 /* Default font */
 .nunito {
   font-family: "Nunito", sans-serif;
@@ -22,5 +27,5 @@ ul{
 
 /* Desktop and tablet Design */
 .container{
-    padding: 3rem 5rem;
+    padding: 2rem 5rem;
 }
