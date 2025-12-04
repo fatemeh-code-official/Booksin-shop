@@ -10,6 +10,7 @@
   --clr-Warm-Taupe: #d2b2a8;
 
   --transition: all 0.5s ease-in-out;
+  --box-shodow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
 /* Default font */

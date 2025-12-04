@@ -45,7 +45,7 @@
   position: absolute;
   right: 0;
   text-align: center;
-  padding: 0.5rem 0.8rem;
+  padding: 0.4rem 0.8rem;
   border: none;
   border-radius: 1rem;
   background-color: var(--clr-Mauve-Mist);
@@ -190,14 +190,14 @@
   align-items: center;
   gap: 2rem;
 }
-.category .categories{
+.category .categories {
   width: 100%;
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
 /* Category Title */
-.category .category_title{
+.category .category_title {
   padding-bottom: 1rem;
   font-size: 2rem;
   width: min-content;
@@ -207,7 +207,7 @@
 
 /* Category Item */
 .category .category_item {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--box-shodow);
 }
 .category .category_item a {
   display: flex;
@@ -223,4 +223,77 @@
   color: var(--clr-black);
   font-size: 1rem;
   font-weight: bold;
+}
+/* End of Category */
+
+/* Best sells */
+.best_sells {
+  margin-top: 4rem;
+}
+/* Best sells Title */
+.best_sells .best_sells_title {
+  margin: 0 auto;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--clr-Dusty-Pink);
+  width: fit-content;
+  color: var(--clr-Deep-Plum);
+  margin-bottom: 2rem;
+}
+/* Best sell items */
+.best_sells .best_sells_items {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+  grid-template-columns: repeat(6, auto);
+}
+/* Best sells item */
+.best_sells .best_sells_items .best_sell_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ /* Best sells item image */
+.best_sells .best_sells_items .best_sell_item img {
+  width: 8rem;
+  height: 10rem;
+  box-shadow: var(--box-shodow);
+}
+ /* Best sells item Descriptions */
+.best_sells .best_sells_items .best_sell_item .descriptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.best_sells .best_sells_items .best_sell_item .descriptions .author {
+  margin-top: 1rem;
+  color: var(--clr-Deep-Plum);
+  font-size: 1rem;
+}
+.best_sells .best_sells_items a:hover .best_sell_item .descriptions .author {
+  color: var(--clr-Dusty-Pink);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.best_sells .best_sells_items .best_sell_item .descriptions .book_name {
+  color: var(--clr-Dusty-Pink);
+  font-weight: bold;
+  padding-bottom: 0.3rem;
+  width: fit-content;
+}
+.best_sells .best_sells_items a:hover .best_sell_item .descriptions .book_name {
+  border-bottom: 2px solid var(--clr-Dusty-Pink);
+  color: var(--clr-Deep-Plum);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
 }
