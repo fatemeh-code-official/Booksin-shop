@@ -387,7 +387,7 @@
 .footer .container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, auto);
 }
 /* Footer items */
 .footer .footer_items {
@@ -428,4 +428,8 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+/* Legal */
+.footer .legal a{
+  color: var(--clr-Deep-Plum);
 }
