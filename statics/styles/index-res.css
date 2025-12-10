@@ -1,0 +1,12 @@
+/* 1100 px */
+
+@media screen and (max-width: 1200px) {
+  /* Hedaer */
+  /* Top header */
+  .container .header .top_header .logo img {
+    width: 2.5rem;
+  }
+  .container .header .top_header .top_header_icons{
+    margin-left: 0;
+  }
+}
