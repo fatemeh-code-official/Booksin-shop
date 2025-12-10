@@ -362,6 +362,7 @@
 }
 .popular_authors .authors a .p_author .author_name {
   color: var(--clr-Deep-Plum);
+  text-align: center;
 }
 .popular_authors .authors a .p_author img {
   width: 6rem;
