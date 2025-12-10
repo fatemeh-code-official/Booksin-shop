@@ -253,7 +253,7 @@
   margin-top: 1rem;
   padding-top: 1rem;
   display: grid;
-  gap: 2rem;
+  gap: 2.1rem;
   justify-content: center;
   grid-template-columns: repeat(6, auto);
 }
@@ -294,7 +294,7 @@
   color: var(--clr-Dusty-Pink);
   font-weight: bold;
   padding-bottom: 0.3rem;
-  width: fit-content;
+  text-align: center;
 }
 .best_sells .best_sells_items a:hover .best_sell_item .descriptions .book_name {
   border-bottom: 2px solid var(--clr-Dusty-Pink);
