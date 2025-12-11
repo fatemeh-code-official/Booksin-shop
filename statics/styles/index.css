@@ -266,6 +266,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
 }
 /* Best sells item image */
 .best_sells .best_sells_items .best_sell_item img {

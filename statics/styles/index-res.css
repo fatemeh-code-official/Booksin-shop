@@ -238,4 +238,9 @@
   .category .categories {
     gap: 3rem;
   }
+
+  /* Best sells */
+  .best_sells .best_sells_items {
+    gap: 2rem;
+  }
 }
