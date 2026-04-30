@@ -1,8 +1,8 @@
-# 📚 Booksin Shop
+# 📚 Booksin Blog
 
-A full-stack Django-based book shop and blogging platform built with a scalable architecture and clean separation of concerns.
+A full-stack Django-based book blog platform built with a scalable architecture and clean separation of concerns.
 
-Booksin Shop is a dynamic web application where book and author data are rendered from the database, and a fully functional blog system serves as the core content engine of the project.
+Booksin blog is a dynamic web application where book and author data are rendered from the database, and a fully functional blog system serves as the core content engine of the project.
 
 The project focuses on backend-driven rendering, authentication workflows, SEO readiness, content management, and clean Django app architecture.
 
@@ -10,7 +10,7 @@ The project focuses on backend-driven rendering, authentication workflows, SEO r
 
 ## 🚀 Project Overview
 
-Booksin Shop consists of:
+Booksin Blog consists of:
 
 - A dynamic **home page** displaying:
   - Authors
@@ -130,7 +130,7 @@ booksin_shop/
 
 ### Backend
 - Python 3
-- Django
+- Django 4.2.27
 - SQLite3
 
 ### Frontend
@@ -284,14 +284,13 @@ This project demonstrates understanding of:
 # 👩‍💻 Author
 
 Fatemeh  
-Computer Engineering Student  
-Backend-Oriented Web Developer (Django)
 
+Backend Learner – Django
 ---
 
 # ⭐ Why This Project Matters
 
-Booksin Shop is not just a template project —  
+Booksin Blog is not just a template project —  
 It demonstrates real backend logic, content workflows, and production-like behaviors such as moderation, search, pagination, and SEO handling.
 
 It reflects practical understanding of Django fundamentals and scalable web application structure.
